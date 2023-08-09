@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            color: rgb(252, 253, 253);
+            background-color: rgb(110, 182, 2);
+            margin: 20px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .middle-person:focus{
+            color: blue;
+        }
+        a:visited{
+            color: rgb(167, 82, 12);
+        }
+        li{
+            background-color: aquamarine;
+        }
+        li:first-child{
+            background-color: blueviolet;
+            color: blanchedalmond;
+        }
+        li:last-child{
+            color: brown;
+        }
+        li:nth-child(2n){
+            background-color: red;
+        }
+        h3::before{
+            content: "All are ";
+            background-color: yellow;
+        }
+        h3::after{
+            content: " Here ";
+            background-color: yellow;
+        }
+       .special::after{
+            content: " Here ";
+            background-color: rgb(118, 84, 239);
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal
+
+    </h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <a href="https://web.programming-hero.com/">Programming Hero</a>
+    <a href="https://github.com/">Github</a>
+    <a href="https://dictionary.cambridge.org/dictionary/english/new">Unkhown</a><br>
+
+    <h3 class="special">Middle Size Header -1</h3>
+    <h3>Middle Size Header -2</h3>
+    <h3 class="special">Middle Size Header -3</h3>
+    <h3 class="special">Middle Size Header -4</h3>
+    <h3>Middle Size Header -5</h3>
+    <h3>Middle Size Header -6</h3>
+
+    <ul>
+        <li>Munni</li>
+        <li>tonni</li>
+        <li>Minni</li>
+        <li>Pinni</li>
+        <li>Tinni</li>
+        <li>Ninni</li>
+    </ul>
+</body>
+</html>
